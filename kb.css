@@ -1,0 +1,147 @@
+A:link { color: inherit; }
+A:visited { color: inherit; }
+A:hover { color: inherit; font-weight: bold;}
+A:active { color: inherit; font-style: italic;}
+
+body {
+	background: #abb2b9;
+	font-family: verdana;
+}
+
+div.body {
+	max-width: 1024px;
+	margin: auto;
+}
+
+div.emp p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.list {
+	display: block;
+	margin-top: 1em;
+	margin-left: 37%;
+	margin-bottom: 1em;
+	width: 50%;
+}
+
+div.menu {
+	height: 80px;
+	background-color: #034ec6;
+}	
+
+div.welcome {
+	height: 360px;
+	background-image: url("WelcomeBG.png"); 
+	background-repeat: repeat-x;
+}
+
+footer {
+	background-image: url("ftrbg.png"); 
+	background-repeat: repeat-x;
+	max-width: 1024px;
+	margin: auto;
+	color: white;
+	line-height: 2em;
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+footer li {
+	display: inline;
+	margin: 0px 2em;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #2F3234;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 0px;
+	color: #2F3234;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 1em;
+	text-align: center;
+	color: white;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 1em;
+	color: #2F3234;
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #034ec6;
+	background-color: #034ec6;
+	border: 0 none;
+	height: 1px;
+	width: 300px;
+}
+
+.indent {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.list li {
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 16px;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	width: 30%;
+	vertical-align: top;
+}
+
+td ul {
+	margin-left: -20px;
+}
+
+ul, li ul {
+	list-style-type: square;
+}
+
+ul.menuitems {
+	margin: auto;
+	padding: 0px 50px 0px 50px;
+	overflow: hidden;
+    list-style-type: none;
+	line-height: 80px;
+	vertical-align: middle;
+	color: white;
+    font-size: 20px;
+	display: flex;
+    justify-content: space-between;
+}
+
+ul.menuitems li {
+	display: inline;
+}
