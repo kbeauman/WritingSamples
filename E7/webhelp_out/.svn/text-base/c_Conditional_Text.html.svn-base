@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="concept" name="DC.Type" />
+<meta name="DC.Title" content="Conditional Text" />
+<meta name="abstract" content="Set this attribute to use a common doc-set for multiple versions." />
+<meta name="description" content="Set this attribute to use a common doc-set for multiple versions." />
+<meta scheme="URI" name="DC.Relation" content="c_XMetaL.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="concept_DF2F735414E94A40A5B152508C455440" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Conditional Text</title>
+</head>
+<body id="concept_DF2F735414E94A40A5B152508C455440"><a name="concept_DF2F735414E94A40A5B152508C455440"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Conditional Text</h1>
+ 
+   
+   
+  <div><p>Set this attribute to use a common doc-set for multiple versions. 
+  </p>
+ 
+	 <p>There is an entire section on this topic in 
+		<span class="wintitle">XMetaL Help&gt;Working with DITA&gt;Conditional
+		  Text</span>. Also, a brief, but informative blog at 
+		<a href="http://flowwrite.blogspot.com/2008/03/using-dita-for-conditional-text.html" target="_blank">http://flowwrite.blogspot.com/2008/03/using-dita-for-conditional-text.html</a>.
+		Here are a few additional notes that may not be covered, or are specific to our
+		application of this feature.
+	 </p>
+
+	 <div class="p">Here are some best practice tips from the fine folks at 
+		<span class="wintitle">XMetaL</span>:
+		<br /><ul class="simple">
+		  <li>To make a whole topic conditional, conditionalize the
+			 corresponding topic reference in the DITA map file. See the following section
+			 on 
+			 <a href="c_Conditional_Text.html#concept_DF2F735414E94A40A5B152508C455440__section_A4E97F626868450E845C1B5342C46776">Entire Topics</a>
+			 for additional information.
+		  </li>
+
+		  <li>Do not conditionalize content that is "common to all." 
+		  </li>
+
+		  <li>If your content will be translated, it is recommended to
+			 conditionalize entire sentences, not parts of sentences. 
+		  </li>
+
+		</ul>
+
+	 </div>
+
+	 <p>At the moment, Conditional Text is only used in 
+		<span class="wintitle">SONUS</span> for Fiat and Chrysler only content. There are
+		also one or two instances where the 
+		<span class="uicontrol">Future Functionality</span> attribute is employed for
+		features planned for a previous deployment but were withheld.
+	 </p>
+
+	 <p>Any text with no attribute is common to all versions when they are
+		generated. However, when 
+		<span class="uicontrol">Fiat</span> is selected in 
+		<a href="t_Generate_Output_for_DITA_Map.html#task_E54E3AD2E4B749A09B087CD5989AD015__step_4FB92FE37F8A45B784774E46224D71FC">Show/Hide Conditional Text</a> dialog
+		box, any text or topic with a 
+		<span class="uicontrol">Chrysler</span> attribute is omitted.
+	 </p>
+
+	 <p>Generally, you can add an attribute to a word, phrase, etc. However,
+		tables are more complicated. There is no way to omit an entire row of a table,
+		which results in a blank row. The workaround for this is a separate table for
+		each version/attribute. A good example of this is the 
+		<span class="wintitle">Routines</span> section of 
+		<span class="wintitle">SONUS</span> topic 
+		<span class="filepath">r_Validation_Results_Configuration.xml</span>.
+	 </p>
+ 
+	 <div class="section" id="concept_DF2F735414E94A40A5B152508C455440__section_A4E97F626868450E845C1B5342C46776"><a name="concept_DF2F735414E94A40A5B152508C455440__section_A4E97F626868450E845C1B5342C46776"><!-- --></a><h2 class="sectiontitle">Entire Topics</h2>
+		
+		<div class="p">To apply the Conditional Text attribute to an entire topic:
+		<br /><a name="concept_DF2F735414E94A40A5B152508C455440__ol_15F0540CE985437D8FD3C27EE92275CA"><!-- --></a><ol id="concept_DF2F735414E94A40A5B152508C455440__ol_15F0540CE985437D8FD3C27EE92275CA">
+		  <li id="concept_DF2F735414E94A40A5B152508C455440__li_3F0DB7223F314AE096827B4E87A9D37E"><a name="concept_DF2F735414E94A40A5B152508C455440__li_3F0DB7223F314AE096827B4E87A9D37E"><!-- --></a>Go to 
+			 <span class="menucascade"><span class="uicontrol">Resource
+				  Manager</span> &gt; <span class="uicontrol">File</span> &gt; <span class="uicontrol">Switch to XML View of
+				  Map</span></span>. The map displays in 
+			 <span class="wintitle">View</span>.
+		  </li>
+
+		  <li id="concept_DF2F735414E94A40A5B152508C455440__li_2E57C1D9C5094C04B6846890D1AE5BEA"><a name="concept_DF2F735414E94A40A5B152508C455440__li_2E57C1D9C5094C04B6846890D1AE5BEA"><!-- --></a>Locate and select the
+			 topic title including the 
+			 <tt class="sysout">&lt;topicref&gt;</tt> tags.
+		  </li>
+
+		  <li id="concept_DF2F735414E94A40A5B152508C455440__li_CA258AAB8DF04E17B9079901251A4676"><a name="concept_DF2F735414E94A40A5B152508C455440__li_CA258AAB8DF04E17B9079901251A4676"><!-- --></a>Go to 
+			 <span class="menucascade"><span class="uicontrol">Reuse</span> &gt; <span class="uicontrol">Apply/Remove
+				  Conditions</span></span> and select the desired attribute.
+		  </li>
+
+		  <li id="concept_DF2F735414E94A40A5B152508C455440__li_DFB764598A4841FD8904B00222EE03B4"><a name="concept_DF2F735414E94A40A5B152508C455440__li_DFB764598A4841FD8904B00222EE03B4"><!-- --></a>Click 
+			 <span class="uicontrol">Apply</span>, then 
+			 <span class="uicontrol">OK</span> to close the dialog box.
+		  </li>
+
+		  <li id="concept_DF2F735414E94A40A5B152508C455440__li_1C071E7F20C24DDBA045BE9079724FF9"><a name="concept_DF2F735414E94A40A5B152508C455440__li_1C071E7F20C24DDBA045BE9079724FF9"><!-- --></a><span class="uicontrol">Ctrl+S</span> to save
+			 and 
+			 <span class="uicontrol">Ctrl+W</span> to close the map file. Unfortunately,
+			 there is no way to move the map from 
+			 <span class="wintitle">View</span> to 
+			 <span class="wintitle">Resource Manager</span>.
+		  </li>
+
+		</ol>
+
+		</div>
+
+	 </div>
+
+  </div>
+
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_XMetaL.html" title="Use XMetaL to edit Help text and compile Help file.">Editing Help Text With XMetaL</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

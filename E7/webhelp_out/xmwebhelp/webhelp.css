@@ -1,0 +1,282 @@
+/* ======================================================================                                               */
+/* Product      :                                                                                                       */
+/* Notes        :                                                                                                       */
+/*                                                                                                                      */
+/* ======================================================================                                               */
+/*                                                                                                                      */
+/*  (c) 2009 Justsystems Canada Inc. All Rights Reserved                                                                            */
+/*                                                                                                                      */
+/* ======================================================================                                               */
+/* Revision History: (last five changes)                                                                                */
+/* Name             Date       Description                                                                              */
+/* =========================                                                                                            */
+/* | asmith                    mith  3-Nov-09 PROD00000000: XMEE 6.0 onto MAIN                                          */
+/* ======================================================================                                               */
+
+/* 
+
+webhelp.css 
+v. 2009 10 02
+
+*/
+
+p > a {
+	color: yellow;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+	font-size: 12pt;
+}
+
+#whWrapper {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#whHeader {
+	padding: 0;
+	margin: 0;
+	background: #2B547A url("images/head_gradient.png") repeat-x top right; 
+	color: #fff;
+	border-bottom: 1px solid #ffffff;
+}
+
+#whHeader li {
+	display: block;
+	float: left;
+	width: 60px;
+	margin: 0 5px 0 0;
+	padding: 3px;
+	color: #000;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 100%;
+	list-style-type: none;
+	-moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+
+#whHeader li a {
+	font: 10px/100% Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+#whToolbar {
+/**/
+}
+
+#whTitlebar {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#whTitlebar h1 { 
+	margin: 0;
+	padding: 7px 0 3px 0;
+	min-height: 25px;
+	font: bold 12pt/100% Verdana;
+	text-shadow: 1px 1px 0 #2B547A;
+	color: #fff;
+}
+
+#whNavbar {
+	margin: 0 5px 0 0;
+}
+
+#whNavbar li {
+	float: right;
+	margin: 0 0 0 5px;
+}
+
+#whNavbar .btnSmall {
+	width: 10px;
+}
+
+#whMain {
+	clear: both;
+	padding: 3px 0 0 0;
+}
+
+#whTools {
+	margin: 0 5px 0 5px;
+	padding: 0;
+	overflow-y: auto;
+	display: inline;
+}
+
+/* IE 6 fix for correct height rendering of ToC, Index and Search */
+* html #whTools {
+                height: 1%;
+}
+
+#whContent {
+	border-left: 1px solid #2B547A;
+}
+
+/* IE 6 fix to remove extra space between header and iframe content div */
+* html #whContent {
+	margin-top: -90px;
+}
+
+#whContentFrame {
+	margin: 0;
+	padding: 0;
+}
+
+/* ToC */
+#whToC {
+	overflow: auto;
+	width: 100%;
+}
+
+#whToC h4, #whIndex h4 {
+	padding: 10px 0 0 0;
+	margin: 0;
+	font: bold 12pt Verdana;
+}
+
+#whToC #whTocTree {
+	font: 10pt Verdana;
+}
+
+#whTocTree a {
+	color: #000;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#whTocTree a:hover {
+	color: red;
+}
+
+#whTocTree .current {
+	color: red;
+}
+
+#whTocTree .whTocHeader {
+	font-weight: bold;
+}
+
+/* Search */
+#whSearch  {
+	margin: 0;
+	padding: 0;
+}
+
+#whSearch #searchInput {
+	margin: 0;
+	padding: 0;
+}
+
+#whSearch #searchInput form {
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#whSearch #searchInput label {
+	padding: 0 0 5px 0;
+}
+
+#whSearch #searchInput #searchQuery {
+	width: 120px;
+}
+
+#whSearch #searchInput #startSearch {
+	width: 60px;
+	color: #000;
+	background: #fff url("images/button_bg.png") repeat-x bottom left;
+	border: 1px solid #ffffff;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px;
+	margin: 0 0 0 3px;
+	text-align: center;
+}
+
+#whSearch label {
+	display: block;
+	padding: 10px 0 0 0;
+	margin: 0;
+	font: bold 12pt Verdana;
+}
+
+#whSearch input {
+	padding: 0 0 0 5px;
+}
+
+#searchResults, #whIndex {
+	overflow: auto;
+}
+
+#searchResults .whResultTitle {
+	font-weight: bold;
+	color: #000;
+}
+
+#searchResults .whResultTitle #whQuery {
+	background-color: yellow;
+}
+
+#searchResults ul, #whIndex ul {
+	padding: 5px 0 0 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#searchResults li, #whIndex li {
+	padding: 0 0 3px 5px;
+	list-style-type: none;
+	font: 10px/120%  Verdana;
+}
+
+#searchResults a, #whIndex a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 0;
+	margin: 0 2px 0 0;
+	font-weight: normal;
+}
+
+#searchResults a:hover, #whIndex a:hover {
+	color: red;
+}
+
+#searchResults a:active, #whIndex a:active {
+	color: red;
+	border: none;
+}
+
+#searchResults a.current, #whIndex a.current {
+	color: red;
+	background-color: #eee;
+}
+
+/* Index */
+#whIndex > ul {
+	padding: 2px 0 0 0;
+	margin: 0;
+}
+
+#whIndex > ul > li {
+	padding: 0 0 2px 5px;
+	margin: 0;
+}
+
+#whIndex li {
+	padding: 0 0 2px 10px;
+	margin: 0;
+}
+
+#whIndex li ul {
+	padding: 2px 0 0 0;
+	margin: 0;
+}
+

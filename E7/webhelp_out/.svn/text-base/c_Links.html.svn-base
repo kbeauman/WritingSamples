@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="concept" name="DC.Type" />
+<meta name="DC.Title" content="Links" />
+<meta name="abstract" content="File repositories and other useful links." />
+<meta name="description" content="File repositories and other useful links." />
+<meta content="XHTML" name="DC.Format" />
+<meta content="concept_DF2F735414E94A40A5B152508C455440" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Links</title>
+</head>
+<body id="concept_DF2F735414E94A40A5B152508C455440"><a name="concept_DF2F735414E94A40A5B152508C455440"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Links</h1>
+ 
+   
+   
+  <div><p>File repositories and other useful links. 
+  </p>
+ 
+	 <br /><a name="concept_DF2F735414E94A40A5B152508C455440__ul_329F51738C2849DE932A543BB6A48832"><!-- --></a><ul id="concept_DF2F735414E94A40A5B152508C455440__ul_329F51738C2849DE932A543BB6A48832"> 
+		<li id="concept_DF2F735414E94A40A5B152508C455440__li_618423ABE78747FAAC790916268F258F"><a name="concept_DF2F735414E94A40A5B152508C455440__li_618423ABE78747FAAC790916268F258F"><!-- --></a>Help Files - 
+		  <a href="svn://red-repo.securityinspection.com/repos/HelpDocumentation" target="_blank">svn://red-repo.securityinspection.com/repos/HelpDocumentation</a>
+		  
+		  <p>Access with the TortoiseSVN Repo-Browser. 
+		  </p>
+ 
+		</li>
+ 
+		<li id="concept_DF2F735414E94A40A5B152508C455440__li_CCC9CDB8C91D431DA20EEDB78E9C54E3"><a name="concept_DF2F735414E94A40A5B152508C455440__li_CCC9CDB8C91D431DA20EEDB78E9C54E3"><!-- --></a>Test Environments - 
+		  <a href="http://red-repo.securityinspection.com/wiki/index.php/Development_and_Testing_Environments" target="_blank">http://red-repo.securityinspection.com/wiki/index.php/Development_and_Testing_Environments</a>
+		  
+		  <p>Standard Test Logins - 
+			 <a href="http://red-repo.securityinspection.com/wiki/index.php/Standard_Test_Logins" target="_blank">http://red-repo.securityinspection.com/wiki/index.php/Standard_Test_Logins</a>
+			 
+		  </p>
+ 
+		  <p>VELOX Red-Dev Server - 
+			 <a href="https://red-dev.securityinspection.com:8443/velox/home.jsf" target="_blank">https://red-dev.securityinspection.com:8443/velox/home.jsf</a>
+		  </p>
+
+		</li>
+ 
+		<li id="concept_DF2F735414E94A40A5B152508C455440__li_22C48EFAEC22444282D7A994165BD82B"><a name="concept_DF2F735414E94A40A5B152508C455440__li_22C48EFAEC22444282D7A994165BD82B"><!-- --></a>VELOX Wireframe - 
+		  <a href="svn://red-repo.securityinspection.com/repos/DOCUMENTATION/UI/release intent/velox/jsf/wireframe/VELOX-wireframe.pptx" target="_blank">svn://red-repo.securityinspection.com/repos/DOCUMENTATION/UI/release intent/velox/jsf/wireframe/VELOX-wireframe.pptx</a>
+		  
+		  <p>Access with the TortoiseSVN Repo-Browser and check the Date each day
+			 for updates.
+		  </p>
+ 
+		</li>
+ 
+		<li id="concept_DF2F735414E94A40A5B152508C455440__li_BEB9F322EA1D4FF19BD3B0BC26D7B4BD"><a name="concept_DF2F735414E94A40A5B152508C455440__li_BEB9F322EA1D4FF19BD3B0BC26D7B4BD"><!-- --></a>XMetaL Forums - 
+		  <a href="http://forums.xmetal.com/index.php?" target="_blank">http://forums.xmetal.com/index.php?</a> 
+		</li>
+
+	 </ul>
+ 
+  </div>
+
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

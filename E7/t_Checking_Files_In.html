@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="Checking Files In" />
+<meta name="abstract" content="Backing up your revisions." />
+<meta name="description" content="Backing up your revisions." />
+<meta scheme="URI" name="DC.Relation" content="c_Manage_Help_Files.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="task_2C1A47DA164C40DA84A7002ADE9DEA44" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Checking Files In</title>
+</head>
+<body id="task_2C1A47DA164C40DA84A7002ADE9DEA44"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Checking Files In</h1>
+ 
+   
+   
+  <div><p>Backing up your revisions. 
+  </p>
+ 
+	 <div class="section" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__context_F3FABD03587A4342A1E9767AF3277816"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__context_F3FABD03587A4342A1E9767AF3277816"><!-- --></a> 
+		<p>At regular intervals, typically end-of-day, check-in your changes to
+		  the network. This servers two purposes, to provide a secure backup of your
+		  files and to allow colleagues access to your revisions. When multiple users are
+		  working from the same directory, each check-in procedure must begin with an
+		  update of your 
+		  <span class="wintitle">SVN</span> log (a hidden folder residing in each of your
+		  Working Copy folders. However, when you are the sole author of these files you
+		  may begin this process at 
+		  <a href="t_Checking_Files_In.html#task_2C1A47DA164C40DA84A7002ADE9DEA44__step_4F9E6CB2A34E4D85903BDFC7541477CB">Step 4</a>: 
+		</p>
+ 
+	 </div>
+ 
+	 <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_58A150BBA7104EE7A9D70CD670E304B2"><!-- --></a><ol id="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_58A150BBA7104EE7A9D70CD670E304B2"> 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_94607F0A30A84E3E9E1B26F6473FD1FA"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_94607F0A30A84E3E9E1B26F6473FD1FA"><!-- --></a> 
+		  <span>In 
+			 <span class="wintitle">Windows Explorer</span>, right-click the folder that
+			 contains all the files you changed and/or added to the help and select 
+			 <span class="uicontrol">SVN Update</span> from the menu. 
+		  </span> 
+		   A 
+			 <span class="wintitle">TortoiseSVN</span> update window displays files of the
+			 repository which have been added or updated by others along with the update
+			 action in the 
+			 <span class="wintitle">Action</span> column. See 
+			 <span class="wintitle">Update Your Working Copy With Changes From
+				Others</span> in the 
+			 <span class="wintitle">TortoiseSVN Help</span> for additional information. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_47EF42EDEF69459B8D2741D30A8093FD"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_47EF42EDEF69459B8D2741D30A8093FD"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">OK</span> to close the 
+			 <span class="wintitle">TortoiseSVN</span> update window. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_A1937930775A4BF9BEDE460681D652A3"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_A1937930775A4BF9BEDE460681D652A3"><!-- --></a> 
+		  <span>Resolve any 
+			 <tt class="sysout">Conflicted</tt> files. 
+		  </span> 
+		   See 
+			 <span class="wintitle">Resolving Conflicts</span> in the 
+			 <span class="wintitle">TortoiseSVN Help</span> for instructions. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_4F9E6CB2A34E4D85903BDFC7541477CB"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_4F9E6CB2A34E4D85903BDFC7541477CB"><!-- --></a> 
+		  <span>In 
+			 <span class="wintitle">Windows Explorer</span>, right-click the folder that
+			 contains all the files you changed and/or added and select 
+			 <span class="uicontrol">SVN Commit</span> from the context menu. 
+		  </span> 
+		   After scanning your PC and the network, a 
+			 <span class="wintitle">TortoiseSVN Commit</span> dialog box displays a list of
+			 all added and revised files in your Working Copy, along with a checkbox next to
+			 the name. 
+			 <span class="wintitle">TortoiseSVN</span> automatically marks this box for
+			 files that you checked out and modified. Unmodified and new files have a clear
+			 checkbox. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_03AAF46761CD48AEB561A4CFA986D862"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_03AAF46761CD48AEB561A4CFA986D862"><!-- --></a> 
+		  <span>Check the box for the new files you want to upload. Alternatively,
+			 check 
+			 <span class="uicontrol">Select/deselect all</span> to upload all changes. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_08B5C878385B42CD8C86490A58B35CF0"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_08B5C878385B42CD8C86490A58B35CF0"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">OK</span>. 
+		  </span> 
+		   The 
+			 <span class="wintitle">TortoiseSVN Commit</span> progress window displays each
+			 file as it is written to the repository. 
+			 <span class="uicontrol">OK</span> is enabled when the process completes.
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_68A644A8868448C8960A8F8F76FAB4E0"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_68A644A8868448C8960A8F8F76FAB4E0"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">OK</span>. 
+		  </span> 
+		   The 
+			 <span class="wintitle">TortoiseSVN Commit</span> progress window closes.
+		  
+		</li>
+ 
+	 </ol>
+ 
+	 <div class="section" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__result_10879516DE134CF98D75D1C9C4A7F87F"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__result_10879516DE134CF98D75D1C9C4A7F87F"><!-- --></a>Ideally, the green
+		checkmark icon (<a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_9510EAA176DE46E7BC1EDEA480256826"><!-- --></a><img id="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_9510EAA176DE46E7BC1EDEA480256826" src="Graphics/SVNgreenIcon.png" alt="s v n green icon&#10;&#9;&#9;  " />) displays. However, in the event the icon stays red
+		(<a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_9A43093F52774CF782C6723EDE794F24"><!-- --></a><img id="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_9A43093F52774CF782C6723EDE794F24" src="Graphics/SVNredIcon.png" alt="s v n red icon&#10;&#9;&#9;  " />), it is recommended to open each subfolder and verify
+		all new files have been added. Occasionally, 
+		<span class="wintitle">XMetaL</span> support files cause the icon to remain red.
+		If you attempt a second commit and no files display in the dialog box, open the
+		
+		<span class="wintitle">Repo-browser</span> from the context menu and verify your
+		revisions now reside on the repository server.
+	 </div>
+
+  </div>
+
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_Manage_Help_Files.html" title="Version Control and file backup.">Manage Help Files</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

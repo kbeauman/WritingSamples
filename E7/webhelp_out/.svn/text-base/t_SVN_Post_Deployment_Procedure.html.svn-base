@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="SVN Post Deployment Procedure" />
+<meta name="abstract" content="Tag the Branch and merge to the Trunk." />
+<meta name="description" content="Tag the Branch and merge to the Trunk." />
+<meta content="XHTML" name="DC.Format" />
+<meta content="task_E54E3AD2E4B749A09B087CD5989AD015" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>SVN Post Deployment Procedure</title>
+</head>
+<body id="task_E54E3AD2E4B749A09B087CD5989AD015"><a name="task_E54E3AD2E4B749A09B087CD5989AD015"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">SVN Post Deployment Procedure</h1>
+ 
+   
+   
+  <div><p>Tag the Branch and merge to the Trunk. 
+  </p>
+ 
+	 <div class="prereq"><h2>Prerequisites:</h2><a name="task_E54E3AD2E4B749A09B087CD5989AD015__prereq_35200CD20CBC4F409C00BACDCFEF4C49"><!-- --></a>
+		<p>All working copies must be checked in.
+		</p>
+
+	 </div>
+
+	 <a name="task_E54E3AD2E4B749A09B087CD5989AD015__steps_9953ECCE484C4EB5AB3D0EE441E604B2"><!-- --></a><ol id="task_E54E3AD2E4B749A09B087CD5989AD015__steps_9953ECCE484C4EB5AB3D0EE441E604B2"> 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_4F53C034FBCD47F28965E05436C4A7BE"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_4F53C034FBCD47F28965E05436C4A7BE"><!-- --></a> 
+		  <span><strong>Tag the Branch:</strong> Open the 
+			 <span class="wintitle">SVN Browser</span> to 
+			 <span class="filepath">svn://red-repo.securityinspection.com/repos/HelpDocumentation</span>.
+		  </span> 
+		   User Name: 
+			 <kbd class="userinput">kevin</kbd>, Password: 
+			 <kbd class="userinput">qxz934</kbd>.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_8DBB51CA018446BFACE25DB46106D47E"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_8DBB51CA018446BFACE25DB46106D47E"><!-- --></a>
+		  <span>Navigate to the desired folder, right-click and select 
+			 <span class="uicontrol">Copy to</span> from the context menu.
+		  </span>
+		   A dialog box displays with the current file directory.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_21AC9AB399164405810CE7040C7F22D0"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_21AC9AB399164405810CE7040C7F22D0"><!-- --></a>
+		  <span>Edit the file directory by replacing 
+			 <span class="filepath">/branches/</span> with 
+			 <span class="filepath">/tags/</span> and click 
+			 <span class="uicontrol">OK</span>.
+		  </span>
+		   The dialog box closes.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_4757D3AC075C49B1916AB7D025CC3511"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_4757D3AC075C49B1916AB7D025CC3511"><!-- --></a>
+		  <span>Explode the 
+			 <span class="filepath">tags</span> folder to verify.
+		  </span>
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_6FF4451E76CC4F96962DBB82CC9CDC98"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_6FF4451E76CC4F96962DBB82CC9CDC98"><!-- --></a>
+		  <span><strong>Merge to the Trunk:</strong> In your working copy, right-click the 
+			 <span class="filepath">trunk</span> folder and go to 
+			 <span class="menucascade"><span class="uicontrol">TortoiseSVN</span> &gt; <span class="uicontrol">Merge</span></span>.
+		  </span>
+		   A wizard displays 
+			 <span class="wintitle">Merge type</span>.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_168ADE8E31A8468990E627A4A3FFE51E"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_168ADE8E31A8468990E627A4A3FFE51E"><!-- --></a>
+		  <span>Select 
+			 <span class="uicontrol">Merge a range of revisions</span> and click 
+			 <span class="uicontrol">Next</span>.
+		  </span>
+		   The wizard advances to 
+			 <span class="wintitle">Merge revision range</span>.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_C7BF3226CA4C45B3BA5263F68B597F73"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_C7BF3226CA4C45B3BA5263F68B597F73"><!-- --></a>
+		  <span>If necessary, edit the 
+			 <span class="wintitle">URL to merge from</span> to the 
+			 <span class="wintitle">SVN</span> branch folder. Alternatively, use the browse
+			 button (labeled with an eclipse) to navigate to the folder.
+		  </span>
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_5C37612A63514B559A08807DC37032DC"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_5C37612A63514B559A08807DC37032DC"><!-- --></a>
+		  <span>Enter the 
+			 <span class="wintitle">Revision range to merge from</span> separated by a
+			 hyphen (no spaces).
+		  </span>
+		  <a name="task_E54E3AD2E4B749A09B087CD5989AD015__substeps_A8FF7B6C448B4685974C44FD672795BB"><!-- --></a><ol type="a" id="task_E54E3AD2E4B749A09B087CD5989AD015__substeps_A8FF7B6C448B4685974C44FD672795BB">
+			 <li class="substepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_0BF5F7AE7794471392B83CF5A5C9EF78"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_0BF5F7AE7794471392B83CF5A5C9EF78"><!-- --></a>
+				<span>Alternatively, click 
+				  <span class="uicontrol">Show log</span> to see a complete list of
+				  revisions for the branch folder.
+				</span>
+				 A second dialog box displays.
+				
+			 </li>
+
+			 <li class="substepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_14A211E9714248E79745990E276F36CB"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_14A211E9714248E79745990E276F36CB"><!-- --></a>
+				<span>Select both the earliest and latest log entries.
+				</span>
+			 </li>
+
+			 <li class="substepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_6EAD2C23FF484AC0930DE855ADFBD74D"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_6EAD2C23FF484AC0930DE855ADFBD74D"><!-- --></a>
+				<span>Click 
+				  <span class="uicontrol">OK</span>.
+				</span>
+				 The dialog box closes to display the selected
+				  revisions.
+				
+			 </li>
+
+			 <li class="substepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_AFB4567170D74ED384A413AFDD3F4909"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_AFB4567170D74ED384A413AFDD3F4909"><!-- --></a>
+				<span>Edit the comma to a hyphen.
+				</span>
+			 </li>
+
+		  </ol>
+
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_A9AACC0CF69B47D38ED8061EA2EBCA69"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_A9AACC0CF69B47D38ED8061EA2EBCA69"><!-- --></a>
+		  <span>Verify the 
+			 <span class="wintitle">Working Copy</span> directory is 
+			 <span class="filepath">../trunk</span> and click 
+			 <span class="uicontrol">Next</span>.
+		  </span>
+		   The wizard advances to 
+			 <span class="wintitle">Merge options</span>.
+		  
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_9E4CC403D2B54E21BB7E1D95E0F774EA"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_9E4CC403D2B54E21BB7E1D95E0F774EA"><!-- --></a>
+		  <span>Set the following options:
+		  </span>
+		  <a name="task_E54E3AD2E4B749A09B087CD5989AD015__substeps_5E39252F22B540849D32E516CA5FF806"><!-- --></a><ol type="a" id="task_E54E3AD2E4B749A09B087CD5989AD015__substeps_5E39252F22B540849D32E516CA5FF806">
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_43BBD27D6AD34FE18389910C17C59C94"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_43BBD27D6AD34FE18389910C17C59C94"><!-- --></a>
+				<span><span class="uicontrol">Merge depth</span> - 
+				  <kbd class="userinput">Working copy</kbd>.
+				</span>
+			 </li>
+
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_BF26DA00AB4D40BD9B05D91628609574"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_BF26DA00AB4D40BD9B05D91628609574"><!-- --></a>
+				<span><span class="uicontrol">Ignore all whitespaces</span> - Selected.
+				</span>
+			 </li>
+
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_76FE594E1ED64F639F215EB14ACBB689"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_76FE594E1ED64F639F215EB14ACBB689"><!-- --></a>
+				<span>All check boxes are clear.
+				</span>
+			 </li>
+
+		  </ol>
+
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_E07B9A36C64C4584A6BF2388F00F2CE7"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_E07B9A36C64C4584A6BF2388F00F2CE7"><!-- --></a>
+		  <span>Click 
+			 <span class="uicontrol">Merge</span>.
+		  </span>
+		   The wizard closes and another dialog box displays the
+			 progress. When the merge is complete 
+			 <span class="uicontrol">OK</span> is enabled.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_F976F08CEC794151B612CE76B92A585D"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_F976F08CEC794151B612CE76B92A585D"><!-- --></a>
+		  <span>Click 
+			 <span class="uicontrol">OK</span>.
+		  </span>
+		   The dialog box closes.
+		  
+		</li>
+
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_8CCE2ED88EA9492BB63BA99B9D1655E3"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_8CCE2ED88EA9492BB63BA99B9D1655E3"><!-- --></a>
+		  <span>Verify revisions exist in working copy 
+			 <span class="filepath">trunk</span> folder, right-click and select 
+			 <span class="uicontrol">SVN Commit</span> from the context menu.
+		  </span>
+		</li>
+
+	 </ol>
+ 
+  </div>
+
+<div id="footer">
+
+    <div id="copyright">
+    <div align="center"><hr style="color:#D8D8D8; height:1px" />
+
+<img src="Graphics/fiat-footer-logos.png" /></div>
+  </div>
+</div>
+</body>
+</html>

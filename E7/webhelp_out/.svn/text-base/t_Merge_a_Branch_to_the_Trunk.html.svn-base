@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="Merge a Branch to the Trunk" />
+<meta name="abstract" content="Post release: merging revisions into the Trunk." />
+<meta name="description" content="Post release: merging revisions into the Trunk." />
+<meta scheme="URI" name="DC.Relation" content="c_Manage_Help_Files.html" />
+<meta scheme="URI" name="DC.Relation" content="t_Merge_With_SmartSVN.html" />
+<meta scheme="URI" name="DC.Relation" content="t_Resolving_Merge_Conflicts.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="task_2C1A47DA164C40DA84A7002ADE9DEA44" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Merge a Branch to the Trunk</title>
+</head>
+<body id="task_2C1A47DA164C40DA84A7002ADE9DEA44"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Merge a Branch to the Trunk</h1>
+ 
+   
+   
+  <div><p>Post release: merging revisions into the Trunk. 
+  </p>
+ 
+	 <div class="section" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__context_7A4922B2E6834E34AE33A97BB7C1FD71"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__context_7A4922B2E6834E34AE33A97BB7C1FD71"><!-- --></a> 
+		<p>Most 
+		  <span class="wintitle">SVN</span> operations may be performed with the 
+		  <span class="wintitle">SVN Client</span>. However, issues may arise due to
+		  incompatible client/server versions, or other unknowns, where an alternative is
+		  required. See 
+		  <a href="t_Merge_With_SmartSVN.html#task_2C1A47DA164C40DA84A7002ADE9DEA44" title="Alternate method of merging a branch folder to the trunk.">Merge With SmartSVN</a>
+		  should you experience complications, such as multiple tree conflict warnings. 
+		</p>
+ 
+	 </div>
+ 
+	 <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_943F2FAECCA14E3D9AC77E322FEC0AF9"><!-- --></a><ol id="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_943F2FAECCA14E3D9AC77E322FEC0AF9"> 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_B136028595A84F69870CB84348782866"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_B136028595A84F69870CB84348782866"><!-- --></a> 
+		  <span><span class="uicontrol">Commit</span> any revisions of the local 
+			 <span class="filepath">branch</span> folder. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_EB83651B4FE34F9D8DA12DFCE6B40104"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_EB83651B4FE34F9D8DA12DFCE6B40104"><!-- --></a> 
+		  <span>If necessary, 
+			 <span class="uicontrol">Update</span> local 
+			 <span class="filepath">trunk</span> folder. 
+		  </span> 
+		   This is only required when more than users are updating files. If
+			 you are the only Writer, you can skip this step. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_2F165724F153421596B6F71E54555971"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_2F165724F153421596B6F71E54555971"><!-- --></a> 
+		  <span><span class="uicontrol">Tag</span> local 
+			 <span class="filepath">branch</span> folder to 
+			 <span class="wintitle">SVN</span> repository with version ID. 
+		  </span> 
+		  <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substeps_2C4ACFD42CD54C968E1DFB36E5A664ED"><!-- --></a><ol type="a" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substeps_2C4ACFD42CD54C968E1DFB36E5A664ED"> 
+			 <li class="substepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_43F5274AF17347D9A617C5B44BDD066C"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_43F5274AF17347D9A617C5B44BDD066C"><!-- --></a> 
+				<span>In the 
+				  <span class="wintitle">SVN</span> browser, select 
+				  <span class="uicontrol">Copy to</span> from the context menu of the
+				  branch version folder, e.g. 
+				  <span class="filepath">svn://red-repo.securityinspection.com/repos/HelpDocumentation/GODDARDHelp/branches/9.4.0</span>.
+				  
+				</span> 
+				 A dialog box displays with a text field to type the
+				  desired target directory. By default, 
+				  <span class="wintitle">SVN</span> populates this text field with the
+				  directory of the folder you are copying. 
+				 
+			 </li>
+ 
+			 <li class="substepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_2427DECE52154568B0B980DA99EEBDA8"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_2427DECE52154568B0B980DA99EEBDA8"><!-- --></a> 
+				<span>Revise the directory from 
+				  <span class="filepath">.../branches/...</span> to 
+				  <span class="filepath">.../tags/...</span> and click 
+				  <span class="uicontrol">OK</span>. 
+				</span> 
+				 The dialog box close. 
+				 
+			 </li>
+ 
+			 <li class="substepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_6843A313CB144C0DBDB0A51D6DBCA7D5"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_6843A313CB144C0DBDB0A51D6DBCA7D5"><!-- --></a> 
+				<span>Verify the tag folder exists. 
+				</span> 
+			 </li>
+ 
+		  </ol>
+ 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_A8E0ABE517B349F3979B684738ABF424"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_A8E0ABE517B349F3979B684738ABF424"><!-- --></a> 
+		  <span>In the local directory, select 
+			 <span class="uicontrol">Merge</span> from context menu of local 
+			 <span class="filepath">trunk</span> folder. 
+		  </span> 
+		   The 
+			 <span class="wintitle">Merge</span> wizard displays. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_3F87EFFCA84F4486B8207AD6284AF0DC"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_3F87EFFCA84F4486B8207AD6284AF0DC"><!-- --></a> 
+		  <span>Select 
+			 <span class="uicontrol">Merge a range of revisions</span> and click 
+			 <span class="uicontrol">Next</span>. 
+		  </span> 
+		   The wizard advances to 
+			 <span class="wintitle">Merge revision range</span> where you select the branch
+			 folder to merge into the local 
+			 <span class="filepath">trunk</span> folder. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_C7FA6DCA34744E319ECE4347522A37BD"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_C7FA6DCA34744E319ECE4347522A37BD"><!-- --></a> 
+		  <span> Set the following 
+			 <span class="wintitle">Merge revision range</span> options accordingly: 
+		  </span> 
+		  <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substeps_356177B1903E4FC588F34019036846DB"><!-- --></a><ol type="a" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substeps_356177B1903E4FC588F34019036846DB"> 
+			 <li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_C019AE607AAA4752A074F8BE3B3D6427"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_C019AE607AAA4752A074F8BE3B3D6427"><!-- --></a> 
+				<span>In 
+				  <span class="wintitle">URL to merge from</span>, type or select (using
+				  either the 
+				  <span class="uicontrol">drop-down</span> menu or the 
+				  <span class="uicontrol">browse</span> button) the 
+				  <span class="wintitle">SVN</span> branch directory. 
+				</span> 
+			 </li>
+ 
+			 <li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_616A3EA29EA2451CA84A667BFD79C8D4"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_616A3EA29EA2451CA84A667BFD79C8D4"><!-- --></a> 
+				<span>Enter revision version number(s) in 
+				  <span class="wintitle">Revision range to merge</span>. 
+				</span> 
+			 </li>
+ 
+			 <li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_11219AD801A74E919FE4DC8F66F48E09"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__substep_11219AD801A74E919FE4DC8F66F48E09"><!-- --></a> 
+				<span>Verify 
+				  <span class="wintitle">Working Copy</span> directory is local 
+				  <span class="filepath">trunk</span> folder and click 
+				  <span class="uicontrol">Next</span>. 
+				</span> 
+			 </li>
+ 
+		  </ol>
+ 
+		   The wizard advances to 
+			 <span class="wintitle">Merge options</span>. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_00F94A57DEB144D1BC0F4DD0BA6FDFE0"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_00F94A57DEB144D1BC0F4DD0BA6FDFE0"><!-- --></a> 
+		  <span>Set the following 
+			 <span class="wintitle">Merge options</span> options accordingly: 
+		  </span> 
+		  <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__choices_696C4A0BC46F4E8A8F55FD7BD8F55AF9"><!-- --></a><ul id="task_2C1A47DA164C40DA84A7002ADE9DEA44__choices_696C4A0BC46F4E8A8F55FD7BD8F55AF9"> 
+			 <li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__choice_8A8601E5B1F64BFEBFB65220C892F4A2"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__choice_8A8601E5B1F64BFEBFB65220C892F4A2"><!-- --></a><span class="wintitle">Merge
+				  options</span> = 
+				<span class="option">Merge depth: Working copy</span> 
+			 </li>
+ 
+			 <li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__choice_79D21F039315408D8A921740D7335807"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__choice_79D21F039315408D8A921740D7335807"><!-- --></a><span class="option">Ignore
+				  all whitespaces</span> 
+			 </li>
+ 
+			 <li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__choice_73D7E1BD18EA46A680D42D6B604AAF5D"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__choice_73D7E1BD18EA46A680D42D6B604AAF5D"><!-- --></a>All check boxes
+				are clear. 
+			 </li>
+ 
+		  </ul>
+ 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_8C4B2DAA743E491F8B9AA7198DED9153"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_8C4B2DAA743E491F8B9AA7198DED9153"><!-- --></a> 
+		  <span>Optionally (recommended), click 
+			 <span class="uicontrol">Test merge</span>. 
+		  </span> 
+		   A dialog box displays with projected results. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_DA9E4D26BDF34E0C8E836156F62A9284"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_DA9E4D26BDF34E0C8E836156F62A9284"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">Merge</span>. 
+		  </span> 
+		   It is common for files having
+  multiple revisions to display with a 
+  <tt class="sysout">conflict</tt>. Deleted files display with a 
+  <tt class="sysout">tree-conflict</tt>. See 
+  <a href="t_Resolving_Merge_Conflicts.html#task_2C1A47DA164C40DA84A7002ADE9DEA44" title="How to resolve files in conflict following a merge function.">Resolving Merge Conflicts</a>
+  for additional information.
+
+		   The 
+			 <span class="wintitle">Merge</span> wizard closes and another dialog box
+			 displays files as they are merged. The 
+			 <span class="uicontrol">OK</span> button enables when the merge is complete. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_42A79DAA3BCC40F4B69F5D14CA2A3B75"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_42A79DAA3BCC40F4B69F5D14CA2A3B75"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">OK</span>. 
+		  </span> 
+		   The dialog box closes. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_5DCECABA83784A6A8D5A04399F69C91E"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_5DCECABA83784A6A8D5A04399F69C91E"><!-- --></a> 
+		  <span>Verify revisions exist in the local 
+			 <span class="filepath">trunk</span> folder and select 
+			 <span class="uicontrol">SVN Commit</span> from the context menu. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_C015B28ED36344DCB20D0AA6B99217E7"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_C015B28ED36344DCB20D0AA6B99217E7"><!-- --></a> 
+		  <span>If necessary, rename repository branch version folder, select 
+			 <span class="uicontrol">Switch</span> from the context menu of the local 
+			 <span class="filepath">branch</span> folder, and revise the folder name. 
+		  </span> 
+		</li>
+ 
+	 </ol>
+ 
+  </div>
+
+<div><div class="reltasks"><strong>Additional Information:</strong></div>
+<ul class="ullinks">
+<li class="ulchildlink"><strong><a href="t_Merge_With_SmartSVN.html">Merge With SmartSVN</a></strong><br />
+Alternate method of merging a branch folder to the trunk.</li>
+<li class="ulchildlink"><strong><a href="t_Resolving_Merge_Conflicts.html">Resolving Merge Conflicts</a></strong><br />
+How to resolve files in conflict following a merge function.</li>
+</ul>
+
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_Manage_Help_Files.html" title="Version Control and file backup.">Manage Help Files</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

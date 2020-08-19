@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="675" MadCap:lastWidth="1440">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link rel="shortcut icon" href="https://static.foresee.com/icons/foresee/favicon.ico" />
+        <link href="../foundation/css/foundation.css" rel="stylesheet" type="text/css" />
+        <link href="../Stylesheets/TopicStyles.css" rel="stylesheet" type="text/css" />
+        <link href="../Stylesheets/CX_Styles.css" rel="stylesheet" type="text/css" />
+		<!--Google Analytics-->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-570901-19', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+	</head>
+    <body class="home">
+        <div class="topicHdBg">
+            <section class="toolbar"><a href="/Content/cxSuite/home.htm" title="Click to view the Home page." alt="Click to view the Home page." class="logo"><img src="../Images/CX_HelpLogo.png" class="bluelogo" title="Click to view the Home page." alt="ForeSee logo" /></a>
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/ToolbarSearch.flskn" />
+            </section>
+        </div>
+        <div class="off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <div class="title-bar hide-for-medium">
+                    <div class="title-bar-left">
+                        <button class="menu-icon" type="button" data-open="offCanvasLeft">
+                        </button><span class="title-bar-title">Menu</span>
+                    </div>
+                </div>
+                <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas="">
+                    <div id="nav-drilldown">
+                    </div>
+                </div>
+                <div class="off-canvas-content" data-off-canvas-content="">
+                    <section id="page-content">
+                        <div class="breadcrumb">
+                            <div>
+                                <MadCap:breadcrumbsProxy />
+                            </div>
+                        </div>
+                        <!--menu-->
+                        <div class="row">
+                            <div class="show-for-medium medium-4 large-3 columns" id="nav-accordion"> <MadCap:menuProxy data-mc-skin="/Project/Skins/Menu.flskn" style="mc-toc-depth: -1;mc-context-sensitive: False;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" /></div>
+                            <!--end menu-->
+                            <div class="small-12 medium-8 large-9 columns" id="topic-content">
+                                <MadCap:bodyProxy />
+                                <div class="contact">Can't find what you're looking for?  <button type="button" class="contact" onclick="window.open('http://www.foresee.com/about-us/contact-us/')">Contact Us</button></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="homeftrBand">
+            <MadCap:snippetBlock src="../Snippets/FooterContent.flsnp" />
+        </div>
+        <script type="text/javascript" src="../foundation/js/vendor/what-input.js">
+        </script>
+        <script type="text/javascript" src="../foundation/js/vendor/foundation.js">
+        </script>
+        <script type="text/javascript" src="../Scripts/foundation-menu-off-canvas-initialisation.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="reference" name="DC.Type" />
+<meta name="DC.Title" content="DITA" />
+<meta name="abstract" content="Standards for topic development." />
+<meta name="description" content="Standards for topic development." />
+<meta scheme="URI" name="DC.Relation" content="c_XMetaL.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="reference_F623E6E46CF04067A1918168D5E593FD" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>DITA</title>
+</head>
+<body id="reference_F623E6E46CF04067A1918168D5E593FD"><a name="reference_F623E6E46CF04067A1918168D5E593FD"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">DITA</h1>
+ 
+   
+   
+  <div><p>Standards for topic development. 
+  </p>
+ 
+	 <div class="section" id="reference_F623E6E46CF04067A1918168D5E593FD__refsyn_B380DD5AD9314DC4A45AB0CCBAB62377"><a name="reference_F623E6E46CF04067A1918168D5E593FD__refsyn_B380DD5AD9314DC4A45AB0CCBAB62377"><!-- --></a> 
+		<p>There a number of XML files and a least a couple of files with an
+		  extension starting with "dita" in the 
+		  <a href="c_Manage_Help_Files.html#concept_AA689BF918114FCCA659F4F1D3CE0A7E__section_589B80C5E4854D5E939122FF7302B40B">Working Copy</a> folder.
+		  Combined, these files are the source for the web help used by each product. The
+		  help content development process uses the 
+		  <strong>D</strong>arwin 
+		  <strong>I</strong>nformation 
+		  <strong>T</strong>yping 
+		  <strong>A</strong>rchitecture (DITA). DITA is a standard XML data model for
+		  authoring and publishing. 
+		</p>
+ 
+		<p>The following table describes the key topic types (per the DITA
+		  specification) that the E7 currently uses, and also the filename conventions.
+		</p>
+ 
+	 </div>
+ 
+	 <a name="reference_F623E6E46CF04067A1918168D5E593FD__properties_1F9C07564C89496693F3490787AC5188"><!-- --></a><table summary="" cellspacing="0" cellpadding="4" id="reference_F623E6E46CF04067A1918168D5E593FD__properties_1F9C07564C89496693F3490787AC5188" border="1" class="simpletableborder"> 
+		<tr>
+<th valign="bottom" align="left" id="N1006B">Content Type</th>
+<th valign="bottom" align="left" id="N10070">File
+			 Naming</th>
+<th valign="bottom" align="left" id="N10075">Description</th>
+</tr> 
+		<tr>
+<td valign="top" headers="N1006B">Concept</td>
+<td valign="top" headers="N10070"><span class="filepath">c_filename.xml</span></td>
+<td valign="top" headers="N10075">
+			 
+			 <p>From DITA Architectural Specification: "DITA concept topics answer
+				″What is...″ questions." 
+			 </p>
+ 
+			 <p><span class="wintitle">XMetaL</span> applies a "c_" prefix to XML files it
+				creates that use this DITA topic type. Within this file, you cannot use other
+				DITA topic types using 
+				<span class="wintitle">XMetaL</span>. 
+			 </p>
+</td>
+</tr>
+ 
+		<tr>
+<td valign="top" headers="N1006B">Reference</td>
+<td valign="top" headers="N10070"><span class="filepath">r_filename.xml</span></td>
+<td valign="top" headers="N10075">
+			 
+			 <p>From DITA Architectural Specification: "Reference topics describe
+				regular features of a subject or product, such as commands in a programming
+				language." 
+			 </p>
+ 
+			 <p><span class="wintitle">XMetaL</span> applies a "r_" prefix to XML files it
+				creates that use this DITA topic type. Within this file, you cannot use other
+				DITA topic types using 
+				<span class="wintitle">XMetaL.</span> 
+			 </p>
+</td>
+</tr>
+ 
+		<tr>
+<td valign="top" headers="N1006B">Task</td>
+<td valign="top" headers="N10070"><span class="filepath">t_filename.xml</span></td>
+<td valign="top" headers="N10075">
+			 
+			 <p>From DITA Architectural Specification: "Task topics answer ″How do
+				I?″ questions, and have a well-defined structure that describes how to complete
+				a procedure to accomplish a specific goal." 
+			 </p>
+ 
+			 <p><span class="wintitle">XMetaL</span> applies a "t_" prefix to XML files it
+				creates that use this DITA topic type. Within this file, you cannot use other
+				DITA topic types using 
+				<span class="wintitle">XMetaL</span>. 
+			 </p>
+</td>
+</tr>
+ 
+		<tr>
+<td valign="top" headers="N1006B">Reuseable
+			 Component</td>
+<td valign="top" headers="N10070"><span class="filepath">filename.xml</span> or 
+			 <span class="filepath">filenameDEF.xml</span></td>
+<td valign="top" headers="N10075"> 
+			 <p>The actual DITA content type (and 
+				<span class="wintitle">XMetaL</span> file type) is generic, but the content
+				is tagged as 
+				<dfn class="term">Reuseable Content</dfn>. These files are inserted when the
+				same term, sentence, paragraph, etc. is used in multiple topics, much like a
+				Routine. When you edit a 
+				<dfn class="term">Reuseable Component</dfn>, the revision is cascaded
+				globally. So, for example, we change how we derive an Ident, you only need to
+				revise the 
+				<span class="filepath">IdentDef.xml</span> file for each product. 
+			 </p>
+ 
+			 <p>In a help topic, a 
+				<dfn class="term">Reuseable Component</dfn> is wrapped with the 
+				<tt class="sysout">&lt;ph&gt;</tt> Element tag with a light
+				gray highlight. To open a component from a topic, right-click and select 
+				<span class="uicontrol">Open Referenced file</span>. Occasionally,
+				component files are compressed in View. To display the contents, right-click
+				and select 
+				<span class="uicontrol">Refresh All References.</span> 
+			 </p>
+</td>
+</tr>
+ 
+		<tr>
+<td valign="top" headers="N1006B">DITA
+			 Map</td>
+<td valign="top" headers="N10070"><span class="filepath">filename.ditamap</span></td>
+<td valign="top" headers="N10075">A
+			 DITA map defines how the topics are to be organized in the final output. The
+			 map is commonly used as a TOC, but unlike a word processor that generates a TOC
+			 from the topic headers, you place the topic headers in the map where you want
+			 that topic to appear.</td>
+</tr>
+ 
+	 </table>
+ 
+  </div>
+
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_XMetaL.html" title="Use XMetaL to edit Help text and compile Help file.">Editing Help Text With XMetaL</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

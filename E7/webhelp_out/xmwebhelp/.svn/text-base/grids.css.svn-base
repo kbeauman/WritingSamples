@@ -1,0 +1,66 @@
+/* ======================================================================                                               */
+/* Product      :                                                                                                       */
+/* Notes        :                                                                                                       */
+/*                                                                                                                      */
+/* ======================================================================                                               */
+/*                                                                                                                      */
+/*  (c) 2009 Justsystems Canada Inc. All Rights Reserved                                                                            */
+/*                                                                                                                      */
+/* ======================================================================                                               */
+/* Revision History: (last five changes)                                                                                */
+/* Name             Date       Description                                                                              */
+/* =========================                                                                                            */
+/* | asmith                    mith  3-Nov-09 PROD00000000: XMEE 6.0 onto MAIN                                          */
+/* ======================================================================                                               */
+
+/*
+Software License Agreement (BSD License)
+
+Copyright (c) 2009, Nicole Sullivan.
+All rights reserved.
+
+Redistribution and use of this software in source and binary forms, with or without modification, are 
+permitted provided that the following conditions are met:
+
++ Redistributions of source code must retain the above
+  copyright notice, this list of conditions and the
+  following disclaimer.
+
++ Redistributions in binary form must reproduce the above
+  copyright notice, this list of conditions and the
+  following disclaimer in the documentation and/or other
+  materials provided with the distribution.
+
++ Neither the name of Nicole Sullivan nor the names of its
+  contributors may be used to endorse or promote products
+  derived from this software without specific prior
+  written permission of Nicole Sullivan.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+*/
+
+/* **************** GRIDS ***************** */
+.line, .lastUnit {overflow: hidden;_overflow:visible;_zoom:1; }
+.unit{float:left;_zoom:1;}
+.unitExt{float:right;}
+.size1of1{float:none;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+.lastUnit {float:none;_position:relative; _left:-3px; _margin-right: -3px;width:auto;}
+/* extending grids to allow a unit that takes the width of its content */
+.media{width:auto;}

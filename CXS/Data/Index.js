@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Badge',c:0,$:1},{t:'Creating a Survey',c:0,$:1},{t:'Images',c:0,$:1},{t:'Publishing',c:0,$:1},{t:'Reports',c:0,$:1}]});

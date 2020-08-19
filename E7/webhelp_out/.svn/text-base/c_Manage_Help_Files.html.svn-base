@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="concept" name="DC.Type" />
+<meta name="DC.Title" content="Manage Help Files" />
+<meta name="abstract" content="Version Control and file backup." />
+<meta name="description" content="Version Control and file backup." />
+<meta scheme="URI" name="DC.Relation" content="t_Merge_a_Branch_to_the_Trunk.html" />
+<meta scheme="URI" name="DC.Relation" content="t_Checking_Files_Out.html" />
+<meta scheme="URI" name="DC.Relation" content="t_Checking_Files_In.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="concept_AA689BF918114FCCA659F4F1D3CE0A7E" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Manage Help Files</title>
+</head>
+<body id="concept_AA689BF918114FCCA659F4F1D3CE0A7E"><a name="concept_AA689BF918114FCCA659F4F1D3CE0A7E"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Manage Help Files</h1>
+ 
+   
+   
+  <div><p>Version Control and file backup. 
+  </p>
+ 
+	 <p>E7 uses 
+		<span class="wintitle">TortoiseSVN</span> version control for managing files. 
+		<span class="wintitle">TortoiseSVN Client</span> is a free open-source program for
+		version control and is available at 
+		<a href="http://tortoisesvn.net/" target="_blank">http://tortoisesvn.net/</a>. 
+	 </p>
+ 
+	 <div class="section" id="concept_AA689BF918114FCCA659F4F1D3CE0A7E__section_589B80C5E4854D5E939122FF7302B40B"><a name="concept_AA689BF918114FCCA659F4F1D3CE0A7E__section_589B80C5E4854D5E939122FF7302B40B"><!-- --></a><h2 class="sectiontitle">Help File Folder Structure</h2> 
+		 
+		<div class="p">E7 employs the industry standard of using 
+		  <samp class="codeph">trunks</samp>, 
+		  <samp class="codeph">branches</samp>, and 
+		  <samp class="codeph">tags</samp> to manage development cycles. The general
+		  practice for developers is to use a 
+		  <samp class="codeph">branch</samp> to check in revisions, which are then merged
+		  into the 
+		  <samp class="codeph">trunk</samp>. 
+		  <samp class="codeph">Tag</samp> folders are used to store released versions for
+		  reference and possible roll-backs. However, using this procedure for 
+		  <span class="wintitle">Help</span> is a bit labor-intensive and offers few
+		  benefits. Therefore, it is recommended to 
+		  <a href="t_Checking_Files_Out.html#task_2C1A47DA164C40DA84A7002ADE9DEA44" title="Download files to your Working Copy.">Check files out</a> to the 
+		  <samp class="codeph">trunk</samp> and reserve 
+		  <samp class="codeph">branch</samp> folders for situations where multiple versions
+		  are under development and it is necessary to keep these versions separate. See 
+		  <a href="t_Merge_a_Branch_to_the_Trunk.html#task_2C1A47DA164C40DA84A7002ADE9DEA44" title="Post release: merging revisions into the Trunk.">Merge a Branch to the Trunk</a>
+		  for instructions on working with 
+		  <samp class="codeph">branch</samp> folders.
+		  <div class="cautiontitle">CAUTION:</div><div class="caution">Each folder level of the 
+			 <span class="wintitle">Working Copy</span> contains a hidden folder
+			 "<span class="filepath">\.svn</span>". This is used by 
+			 <span class="wintitle">TortoiseSVN</span> for source control and should be
+			 considered off limits by novice users. 
+		  </div>
+
+		</div>
+ 
+		<p>Following a release, the 
+		  <samp class="codeph">trunk</samp> folder is used to generate a 
+		  <samp class="codeph">tag</samp> version.
+		</p>
+ 
+	 </div>
+ 
+  </div>
+
+<div><div class="reltasks"><strong>Additional Information:</strong></div>
+<ul class="ullinks">
+<li class="ulchildlink"><strong><a href="t_Merge_a_Branch_to_the_Trunk.html">Merge a Branch to the Trunk</a></strong><br />
+Post release: merging revisions into the Trunk.</li>
+<li class="ulchildlink"><strong><a href="t_Checking_Files_Out.html">Checking Files Out</a></strong><br />
+Download files to your Working Copy.</li>
+<li class="ulchildlink"><strong><a href="t_Checking_Files_In.html">Checking Files In</a></strong><br />
+Backing up your revisions.</li>
+</ul>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

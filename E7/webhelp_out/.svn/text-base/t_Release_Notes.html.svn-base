@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="Draft Release Notes" />
+<meta name="abstract" content="Author and publish Release Notes in the Knowledgebase." />
+<meta name="description" content="Author and publish Release Notes in the Knowledgebase." />
+<meta scheme="URI" name="DC.Relation" content="c_Release_Notes.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="task_E54E3AD2E4B749A09B087CD5989AD015" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Draft Release Notes</title>
+</head>
+<body id="task_E54E3AD2E4B749A09B087CD5989AD015"><a name="task_E54E3AD2E4B749A09B087CD5989AD015"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Draft Release Notes</h1>
+ 
+   
+   
+  <div><p>Author and publish Release Notes in the Knowledgebase. 
+  </p>
+ 
+	 <div class="prereq"><h2>Prerequisites:</h2><a name="task_E54E3AD2E4B749A09B087CD5989AD015__prereq_81BFC39AA30646C282677C3C60C70795"><!-- --></a> 
+		<p><a href="t_Extract_from_JIRA.html#task_2C1A47DA164C40DA84A7002ADE9DEA44" title="Release Notes are derived from the DPTCCB Project tickets of JIRA.">Extract from JIRA</a>.
+		  
+		</p>
+ 
+	 </div>
+ 
+	 <div class="section" id="task_E54E3AD2E4B749A09B087CD5989AD015__context_E6AA57CF787444C58DF611F89D37DA80"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__context_E6AA57CF787444C58DF611F89D37DA80"><!-- --></a> 
+		<p>Go to 
+		  <a href="https://workbench-kb.dcctools.com/kb/admin/login.php" target="_blank">https://workbench-kb.dcctools.com/kb/admin/login.php</a>
+		  for all applications except 
+		  <span class="wintitle">Fiat SONUS</span>. 
+		</p>
+ 
+		<p>For 
+		  <span class="wintitle">Fiat SONUS</span>, go to 
+		  . 
+		</p>
+ 
+	 </div>
+ 
+	 <a name="task_E54E3AD2E4B749A09B087CD5989AD015__steps_9953ECCE484C4EB5AB3D0EE441E604B2"><!-- --></a><ol id="task_E54E3AD2E4B749A09B087CD5989AD015__steps_9953ECCE484C4EB5AB3D0EE441E604B2"> 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_4F53C034FBCD47F28965E05436C4A7BE"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_4F53C034FBCD47F28965E05436C4A7BE"><!-- --></a> 
+		  <span>In the tool bar, click 
+			 <span class="uicontrol">Articles</span>. By default, the 
+			 <span class="wintitle">Articles</span> page displays with the 
+			 <span class="wintitle">Articles</span> tab. 
+		  </span> 
+		   The 
+			 <span class="wintitle">Articles</span> tab lists the most recent items to be
+			 authored. Since Release Notes are the only article types we currently publish
+			 here, the list is entirely Release Notes. The 
+			 <span class="wintitle">Status</span> column is color coded with a tool tip of
+			 the article's status. 
+			 <p>To edit an existing article, click the corresponding paint brush
+				icon. 
+			 </p>
+ 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_57E5A1D714D54A47BBB06EDE0F86D7D1"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_57E5A1D714D54A47BBB06EDE0F86D7D1"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">Add new</span>. 
+		  </span> 
+		   The 
+			 <span class="wintitle">Main</span> tab displays. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_54F0A619D8704454A8365D0A4ADB05F5"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_54F0A619D8704454A8365D0A4ADB05F5"><!-- --></a> 
+		  <span>From the 
+			 <span class="wintitle">Type</span> menu, select 
+			 <span class="uicontrol">Release Notes</span>. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_F7B0ED0FAAAA42E6AE988CB36A4F2365"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_F7B0ED0FAAAA42E6AE988CB36A4F2365"><!-- --></a> 
+		  <span>For 
+			 <span class="wintitle">Category</span>, click the plus sign button. 
+		  </span> 
+		   A dialog box displays to select the product being released.
+			 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_DC901B5E317F4AA295409DAF0CBB1F38"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_DC901B5E317F4AA295409DAF0CBB1F38"><!-- --></a> 
+		  <span>Double-click the product name, or select and click the plus sign
+			 button. 
+		  </span> 
+		   The product name displays in 
+			 <span class="wintitle">Assigned Categories</span>. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_CDCFD556F75548C3BDFE22B17F4967AE"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_CDCFD556F75548C3BDFE22B17F4967AE"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">OK</span>. 
+		  </span> 
+		   The dialog box closes to display the selected product name
+			 in 
+			 <span class="wintitle">Category</span>. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_E3C1F3E0799D4F04BABB2A2DE7825F69"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_E3C1F3E0799D4F04BABB2A2DE7825F69"><!-- --></a> 
+		  <span>Type the article title using the naming convention: ProductName
+			 Version 0.0 Release Notes. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_E787FEDAE9654F5E844CEDA1458AFA22"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_E787FEDAE9654F5E844CEDA1458AFA22"><!-- --></a> 
+		  <span>Select the 
+			 <span class="uicontrol">Release Notes</span> template and click the center
+			 icon with a red arrow (tool tip: "Replace content with template"). 
+		  </span> 
+		   The 
+			 <span class="wintitle">Article</span> text field populates with the template
+			 text. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_42F3B645F17E412DBBA8F32C548ECD34"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_42F3B645F17E412DBBA8F32C548ECD34"><!-- --></a> 
+		  <span>Make the following edits (it is recommended to click 
+			 <span class="uicontrol">Source</span> and perform the deletions in text view
+			 to ensure all necessary tags are removed): 
+		  </span> 
+		  <a name="task_E54E3AD2E4B749A09B087CD5989AD015__substeps_4689C0B288054025AC77189B3D49AC11"><!-- --></a><ol type="a" id="task_E54E3AD2E4B749A09B087CD5989AD015__substeps_4689C0B288054025AC77189B3D49AC11"> 
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_96031B57348A4D888AC4BDA98E63EFC9"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_96031B57348A4D888AC4BDA98E63EFC9"><!-- --></a> 
+				<span>Revise the Release Date accordingly. 
+				</span> 
+			 </li>
+ 
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_7CFCD80996BF4B9A84DD1DFCAB7188B9"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_7CFCD80996BF4B9A84DD1DFCAB7188B9"><!-- --></a> 
+				<span>Delete the second paragraph, "Delete non-applicable release
+				  types..." 
+				</span> 
+			 </li>
+ 
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_FB5EAE289B5C455681F25C8EC73EA6AD"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_FB5EAE289B5C455681F25C8EC73EA6AD"><!-- --></a> 
+				<span>Based on the release version, delete the text of the three
+				  release types that are not applicable. 
+				</span> 
+			 </li>
+ 
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_A825531E1FAA44669CDADABD10EF3F51"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_A825531E1FAA44669CDADABD10EF3F51"><!-- --></a> 
+				<span>Make any necessary edits to the remaining release description.
+				  Ensure the paragraph begins with "This is a..." 
+				</span> 
+			 </li>
+ 
+			 <li id="task_E54E3AD2E4B749A09B087CD5989AD015__substep_F849E5559A794953B294F7CE07C08B26"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__substep_F849E5559A794953B294F7CE07C08B26"><!-- --></a> 
+				<span>Add any new features to the What's New section, as well as any
+				  Bugs and Defects fixed for this release. It is customary to include the JIRA
+				  Ticket number (including a link) from the 
+				  <span class="wintitle">External JIRA</span> (<a href="https://support.dcctools.com:8443/login.jsp" target="_blank">https://support.dcctools.com:8443/login.jsp</a>).
+				  
+				</span> 
+			 </li>
+ 
+		  </ol>
+ 
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_B9F52FF326A140839AB3FB06D9DCF382"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_B9F52FF326A140839AB3FB06D9DCF382"><!-- --></a> 
+		  <span>From the 
+			 <span class="wintitle">Status</span> menu, select 
+			 <span class="uicontrol">Draft</span> and click 
+			 <span class="uicontrol">OK</span>. 
+		  </span> 
+		   The new article is added to the list on the 
+			 <span class="wintitle">Articles</span> tab. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_96B365D8C2134D7E8B3A82E6F4C96093"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_96B365D8C2134D7E8B3A82E6F4C96093"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">Logout</span> and go to the 
+			 <span class="wintitle">Internal JIRA</span> (<a href="http://red-jira.securityinspection.com:2008/secure/Dashboard.jspa" target="_blank">http://red-jira.securityinspection.com:2008/secure/Dashboard.jspa</a>).
+			 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_90B357459C2F4B5FA707A1F1A6CDB550"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_90B357459C2F4B5FA707A1F1A6CDB550"><!-- --></a> 
+		  <span>Click 
+			 <span class="uicontrol">Create Issue</span> for 
+			 <span class="wintitle">Project:</span> 
+			 <span class="uicontrol">Deployment</span> and 
+			 <span class="wintitle">Issue Type:</span> 
+			 <span class="uicontrol">Task</span>. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_E54E3AD2E4B749A09B087CD5989AD015__step_7BAAAB176F194C63B85B47F9B80A8647"><a name="task_E54E3AD2E4B749A09B087CD5989AD015__step_7BAAAB176F194C63B85B47F9B80A8647"><!-- --></a> 
+		  <span>The 
+			 <span class="wintitle">Summary</span> should read something to the effect of:
+			 "<kbd class="userinput">Publish Product Name Version 0.0 Release Notes</kbd>" and
+			 assign to 
+			 <span class="uicontrol">Steve</span>. 
+		  </span> 
+		</li>
+ 
+	 </ol>
+ 
+  </div>
+
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_Release_Notes.html" title="Processes and requirement for publication.">Release Notes</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

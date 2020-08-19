@@ -1,0 +1,139 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+    /*<meta />*/
+
+    /* Styles for Foundation menu example project */
+
+    /* DON?T EDIT THIS FILE IN FLARE ? it will break the CSS for the not statement ?li.is-accordion-submenu-item:not(.is-accordion-submenu-parent) > a.selected? */
+
+    #page-content /* page container, includes accordion and topic */
+    {
+
+    }
+
+    #header-area /* header area container */
+    {
+    width: 100%;
+    padding: 1rem;
+    background-color: #E3DED9;
+    }
+
+    #header-title /* header title container */
+    {
+    text-align: center;
+    }
+
+    #header-search /* header search box container */
+    {
+
+    }
+
+    #topic-content /* topic container */
+    {
+	background-color: transparent;
+	font-size: 18px;
+	color: #627085;
+	width: 71%;
+	}
+
+    #nav-accordion /* accordion navigation menu container */
+    {
+    padding: 1rem;
+    }
+
+    #nav-drilldown /* drilldown navigation menu container */
+    {
+
+    }
+
+    /* Set menus to be initially hidden, to prevent FOUC (flash of unstyled content). The menus can initially appear unformatted before all scripts have run, which was evident in Chrome browser especially. So we hide the menus in the CSS, and then display them in the script (using display:block), after they have been manipulated. */
+    #nav-accordion,
+    #nav-drilldown
+    {
+    display: none;
+    }
+    #footer-area /* footer container */
+    {
+    width: 100%;
+    padding: 1rem;
+    background-color: #E4D5C6;
+    }
+
+    /* ???????- Flare menu skin styles ? override some default styles ?????????? */
+    /* These menu skin styles are hard-coded in Flare?s CSS, despite setting them in the skin. Override as required */
+	.menu
+	{
+	background-color: #FFFFFF;
+	}
+
+    ul.menu a /* override color ? hard-coded as black */
+    {
+    color: #222B3C;
+    outline: medium none;
+    text-decoration: none;
+    }
+
+    ul.menu,
+    ul.menu ul,
+    ul.menu li
+    {
+    list-style: outside none none;
+    margin: 0;
+    }
+
+    ul.menu,
+    ul.menu ul,
+    ul.menu li
+    {
+    padding: 0;
+    }
+
+    ul.menu li > a
+    {
+    display: block;
+    }
+
+    ul.menu li > a.selected
+    {
+	color: #007BCA;
+    }
+
+    ._Skins_SearchResults #resultList h3.title /* remove underline from search results */
+    {
+    text-decoration: none;
+    }
+
+    /* ???????- Foundation styles ? override some default styles ?????????? */
+    /* set max width of a Foundation row, default is 62.5rem */
+    /*.row 
+    {
+    max-width: 55.5rem;
+	}*/
+
+    li.is-accordion-submenu-item:not(.is-accordion-submenu-parent) > a.selected /* the selected item in the accordion menu, but just the topic link and not the accordion book. DON?T EDIT THIS FILE IN FLARE ? it will break the CSS for the not statement ?li.is-accordion-submenu-item:not(.is-accordion-submenu-parent) > a.selected? */
+    {
+    transition: background-color 0.2s ease;
+    color: #007BCA;
+    }
+
+    #nav-drilldown a.selected /* the selected item in the drilldown menu */
+    {
+    transition: background-color 0.2s ease;
+    background-color: #1CBDFF;
+	color: #007BCA;
+    }
+
+    ul.menu li > a:hover /* hover style for all menu items, for both accordion and drilldown */
+    {
+    /*background-color: #1CBDFF;*/
+	font-weight: bold;
+    }
+
+    li.is-accordion-submenu-parent > a /* accordion menu book ? all, both opened and closed */
+    {
+    padding-right: 2rem; /* increase right padding from 1em to 2em, as text appears under icons */
+    }
+
+    li.is-accordion-submenu-parent[aria-expanded='true'] > a /* accordion menu book ? open only */
+    {
+	color: #222B3C;
+    }

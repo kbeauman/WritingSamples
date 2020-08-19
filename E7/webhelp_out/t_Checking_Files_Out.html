@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="Checking Files Out" />
+<meta name="abstract" content="Download files to your Working Copy." />
+<meta name="description" content="Download files to your Working Copy." />
+<meta scheme="URI" name="DC.Relation" content="c_Manage_Help_Files.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="task_2C1A47DA164C40DA84A7002ADE9DEA44" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Checking Files Out</title>
+</head>
+<body id="task_2C1A47DA164C40DA84A7002ADE9DEA44"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Checking Files Out</h1>
+ 
+   
+   
+  <div><p>Download files to your Working Copy. 
+  </p>
+ 
+	 <div class="prereq"><h2>Prerequisites:</h2><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__prereq_1B1460A3F43243D580920C044AF1580C"><!-- --></a> 
+		<p>Access to 
+		  <span class="filepath">svn://red-repo.securityinspection.com/repos/HelpDocumentation</span>.
+		  
+		</p>
+ 
+	 </div>
+ 
+	 <div class="section" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__context_D656D36EECF847E88CD08A2355ADC3CD"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__context_D656D36EECF847E88CD08A2355ADC3CD"><!-- --></a> 
+		<p>For the first time editing any help files, you must check them out
+		  from the network location using 
+		  <span class="wintitle">TortoiseSVN Client</span>. By default this action copies
+		  the files and folder structure to the 
+		  <span class="filepath">My Documents</span> folder on your PC. It is recommended
+		  to have a folder named for each product you intended to edit. The following
+		  procedure takes advantage of the system's ability to generate a Working Copy
+		  folder for each version you check out, so there is no need to add the 
+		  <samp class="codeph">branch</samp> folder, etc. 
+		</p>
+ 
+	 </div>
+ 
+	 <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_66B1B4632CCE440D9A40A9A20CDBD193"><!-- --></a><ol id="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_66B1B4632CCE440D9A40A9A20CDBD193"> 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_52EA2031898447F5AC000DCC7D7BC8EE"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_52EA2031898447F5AC000DCC7D7BC8EE"><!-- --></a> 
+		  <span>Right-click the product folder you just created and click 
+			 <span class="uicontrol">SVN Checkout</span>. 
+		  </span> 
+		   The 
+			 <span class="wintitle">Checkout</span> dialog window opens. 
+			 <p><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_F8F8C7039E3D4B2C89327D2DB0CD724D"><!-- --></a><img id="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_F8F8C7039E3D4B2C89327D2DB0CD724D" src="Graphics/SVNcheckoutDB.png" alt="s v n check out dialog box &#10;&#9;&#9;&#9;&#9;  " /> 
+			 </p>
+ 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_DCAAD1A4985F43E38D41B2C72D74D00C"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_DCAAD1A4985F43E38D41B2C72D74D00C"><!-- --></a> 
+		  <span>In 
+			 <span class="wintitle">URL of repository:</span>, type or browse to the
+			 desired version folder. 
+		  </span> 
+		   Help files are stored at 
+			 <span class="filepath">svn://red-repo.securityinspection.com/repos/HelpDocumentation</span>.
+			 To checkout a specific Help directory, e.g., GODDARD, click on the ellipsis
+			 button that's to the right of the field and drill down as needed at the 
+			 <span class="wintitle">Tortoise Repository Browser</span> window that appears,
+			 e. g., 
+			 <span class="filepath">.../GODDARDHelp/branches</span>. All versions under
+			 development are stored in the 
+			 <samp class="codeph">branches</samp> folder with subfolders named for each
+			 version, e.g., 
+			 <span class="filepath">.../GODDARDHelp/branches/9.4.0</span>. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_3DAECDBE88C0414FAEED590D4680DBBB"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_3DAECDBE88C0414FAEED590D4680DBBB"><!-- --></a> 
+		  <span>In 
+			 <span class="wintitle">Checkout directory</span>, verify the system generated
+			 file path and add 
+			 <span class="filepath">branch\</span> before the version to be checked out. 
+		  </span> 
+		   Example: 
+			 <span class="filepath">C:\Users\Name\Documents\e7solutions\GODDARDHelp\branch\9.4.0</span>.
+			 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_526153C0DE4D47169AF9C753DB3663B9"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_526153C0DE4D47169AF9C753DB3663B9"><!-- --></a> 
+		  <span>Verify the 
+			 <span class="wintitle">Checkout Depth</span> is 
+			 <span class="option">Fully recursive</span> and click 
+			 <span class="uicontrol">OK</span>. 
+		  </span> 
+		   The download process begins. 
+			 <div class="p">Some notes on 
+				<span class="wintitle">TortoiseSVN</span> and file checkout: 
+			 <br /><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__ul_9C69443F158240B3B78D9A081603E534"><!-- --></a><ul id="task_2C1A47DA164C40DA84A7002ADE9DEA44__ul_9C69443F158240B3B78D9A081603E534"> 
+				<li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_47C18AC582CE4D008500475ED9912705"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_47C18AC582CE4D008500475ED9912705"><!-- --></a>A complete install of 
+				  <span class="wintitle">TortoiseSVN</span> includes a very detailed help
+				  file. Highly recommended reading if you're new to 
+				  <span class="wintitle">TortoiseSVN</span>. 
+				</li>
+ 
+				<li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_BF9C625131FA465786982DB73A0480DF"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_BF9C625131FA465786982DB73A0480DF"><!-- --></a>If you checkout the
+				  entire 
+				  <span class="filepath">HelpDocumentation</span> folder, you are copying
+				  over 80,000 files stored in over 20,000 folders totaling approximately 1.7GB of
+				  disk space (as of July 2011) to your PC. 
+				</li>
+ 
+				<li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_4D17095A19CA4CF4987D1561DF474F55"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_4D17095A19CA4CF4987D1561DF474F55"><!-- --></a>The file/folder icons
+				  in the checkout directory change slightly depending on their status. If the
+				  file/folder is unchanged, the icon has a green checkmark (<a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_DE36DE460C164DB791D3A30CF4DE882D"><!-- --></a><img id="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_DE36DE460C164DB791D3A30CF4DE882D" src="Graphics/SVNgreenIcon.png" alt="s v n green icon &#10;&#9;&#9;&#9;&#9;&#9; " />). When you make and save changes to an existing
+				  file, the icon changes to a red exclamation point (<a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_3BA29B1A0629490EACC4EF38545B683F"><!-- --></a><img id="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_3BA29B1A0629490EACC4EF38545B683F" src="Graphics/SVNredIcon.png" alt="s v n red icon &#10;&#9;&#9;&#9;&#9;&#9; " />). Creating a new file/folder results in a blue
+				  question mark (<a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_C251F4EE15D24429AC554837810408AF"><!-- --></a><img id="task_2C1A47DA164C40DA84A7002ADE9DEA44__image_C251F4EE15D24429AC554837810408AF" src="Graphics/SVNblueIcon.png" alt="s v n blue icon &#10;&#9;&#9;&#9;&#9;&#9; " />), which must be added to the source control log
+				  by means of the 
+				  <span class="wintitle">TortoiseSVN</span> context menu. 
+				</li>
+ 
+				<li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_FDD3900E60654C0B889C593FA1970617"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_FDD3900E60654C0B889C593FA1970617"><!-- --></a>Be aware that these
+				  files are still available on the network for others to checkout and work on if
+				  necessary. 
+				</li>
+ 
+				<li id="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_57677F7E4CA046EB9A8A8847372F0F81"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__li_57677F7E4CA046EB9A8A8847372F0F81"><!-- --></a>To compile a revised
+				  Help file, you must also checkout 
+				  <span class="filepath">Support/Custom_OTs</span> (not necessary if you
+				  checked out the entire 
+				  <span class="filepath">HelpDocumentation</span> folder). 
+				</li>
+ 
+			 </ul>
+ 
+			 </div>
+ 
+		   
+		</li>
+ 
+	 </ol>
+ 
+  </div>
+
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_Manage_Help_Files.html" title="Version Control and file backup.">Manage Help Files</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

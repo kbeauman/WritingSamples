@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright 2005" />
+<meta name="DC.rights.owner" content="(C) Copyright 2005" />
+<meta content="task" name="DC.Type" />
+<meta name="DC.Title" content="Release Notes Descriptions" />
+<meta name="abstract" content="Maintain Release Notes Descriptions." />
+<meta name="description" content="Maintain Release Notes Descriptions." />
+<meta scheme="URI" name="DC.Relation" content="c_Release_Notes.html" />
+<meta content="XHTML" name="DC.Format" />
+<meta content="task_2C1A47DA164C40DA84A7002ADE9DEA44" name="DC.Identifier" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<link href="commonltr.css" type="text/css" rel="stylesheet" />
+<title>Release Notes Descriptions</title>
+</head>
+<body id="task_2C1A47DA164C40DA84A7002ADE9DEA44"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44"><!-- --></a>
+
+ 
+  <h1 class="topictitle1">Release Notes Descriptions</h1>
+ 
+   
+   
+  <div><p>Maintain Release Notes Descriptions. 
+  </p>
+ 
+	 <a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_943F2FAECCA14E3D9AC77E322FEC0AF9"><!-- --></a><ol id="task_2C1A47DA164C40DA84A7002ADE9DEA44__steps_943F2FAECCA14E3D9AC77E322FEC0AF9"> 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_9162EB86944F40FC915F2DE730E9CFAC"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_9162EB86944F40FC915F2DE730E9CFAC"><!-- --></a> 
+		  <span>If necessary, go to the 
+			 <span class="wintitle">Issues</span> tab and configure the following columns
+			 (<span class="menucascade"><span class="uicontrol">Tools</span> &gt; <span class="uicontrol">Configure
+				  Columns</span></span>) to display: 
+			 <span class="wintitle">T</span> (Issue Type), 
+			 <span class="wintitle">Key</span>, 
+			 <span class="wintitle">Summary</span>, 
+			 <span class="wintitle">Release Notes Description</span>. 
+		  </span> 
+		</li>
+
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_11CFE95ABE7249E0BF23BEA3485AB84D"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_11CFE95ABE7249E0BF23BEA3485AB84D"><!-- --></a> 
+		  <span><a href="t_Extract_from_JIRA.html#task_2C1A47DA164C40DA84A7002ADE9DEA44__step_B1E885BCF20B4478905471C6B5B4B0C5">Search for Overview filters.</a> 
+		  </span><br /> 
+		   The 
+			 <span class="wintitle">Issue Navigator</span> displays all records for the
+			 project. 
+		   
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_86B4E05469D0442B8EDA2C1F2B6A1EA9"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_86B4E05469D0442B8EDA2C1F2B6A1EA9"><!-- --></a> 
+		  <span>Sort by 
+			 <span class="wintitle">Key</span> in descending order. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_6ED93CBC99254B1D91A91A1B25B42FA6"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_6ED93CBC99254B1D91A91A1B25B42FA6"><!-- --></a> 
+		  <span>For any issue having a blank 
+			 <span class="wintitle">Release Notes Description</span>, right-click the 
+			 <span class="wintitle">Key</span> and select 
+			 <span class="uicontrol">Open Link in New Tab</span>. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_766BA169A92D43F48ED8064A0B891DAC"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_766BA169A92D43F48ED8064A0B891DAC"><!-- --></a> 
+		  <span>On the left side menu under 
+			 <span class="wintitle">Operations</span>, click 
+			 <span class="uicontrol">Edit</span>. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_5939C829359F4FF7852F34A58D7ABCA8"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_5939C829359F4FF7852F34A58D7ABCA8"><!-- --></a> 
+		  <span>Type the 
+			 <span class="wintitle">Release Notes Description</span> and click 
+			 <span class="uicontrol">Update</span>. 
+		  </span> 
+		</li>
+ 
+		<li class="stepexpand" id="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_93A45555E33C4C1085408A5441A69B86"><a name="task_2C1A47DA164C40DA84A7002ADE9DEA44__step_93A45555E33C4C1085408A5441A69B86"><!-- --></a> 
+		  <span>Close the tab and return to the 
+			 <span class="wintitle">Issue Navigator</span> tab to complete any remaining
+			 issues with blank 
+			 <span class="wintitle">Release Notes Description</span>. 
+		  </span> 
+		</li>
+ 
+	 </ol>
+ 
+  </div>
+
+<div>
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a href="c_Release_Notes.html" title="Processes and requirement for publication.">Release Notes</a></div>
+</div>
+</div>
+<div id="footer" class="footer"><br />
+    <div id="copyright" align="center">© 2011 Copyright E7 Solutions
+    </div>
+</div>
+</body>
+</html>

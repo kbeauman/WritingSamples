@@ -1,0 +1,159 @@
+/*<meta />*/
+
+@media only screen and (max-width: 767px)
+{
+	.search-bar
+	{
+		width: 100%;
+	}
+
+	.search-bar._Skins_ToolbarSearch.mc-component
+	{
+		width: 100%;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-field
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-filter
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/FilterOutline.png') no-repeat center center;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-submit
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: #009fea none;
+		background: -moz-linear-gradient(top, #009fea 0%, #009fea 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009fea), color-stop(100%,#009fea));
+		background: -webkit-linear-gradient(top, #009fea 0%, #009fea 100%);
+		background: -o-linear-gradient(top, #009fea 0%,#009fea 100%);
+		background: -ms-linear-gradient(top, #009fea 0%,#009fea 100%);
+		background: linear-gradient(top, #009fea 0%,#009fea 100%);
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-filter-content
+	{
+		top: 50px;
+		background-color: #ffffff;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-filter.open
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: #ffffff;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-filter.selected
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+		background: transparent url('Images/Filter.png') no-repeat center center;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-filter-content ul li:hover
+	{
+		background-color: #ffffff;
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-field::-webkit-input-placeholder
+	{
+		
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-field::-moz-placeholder
+	{
+		
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-field:-moz-placeholder
+	{
+		
+	}
+
+	._Skins_ToolbarSearch.mc-component .search-field:-ms-input-placeholder
+	{
+		
+	}
+
+	ul.menu._Skins_Menu.mc-component
+	{
+		background-color: #3A475B;
+	}
+
+	ul.menu._Skins_Menu.mc-component a
+	{
+		
+	}
+
+	ul.menu._Skins_Menu.mc-component li > a
+	{
+		background-color: transparent;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul > li > a
+	{
+		background-color: transparent;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul ul > li > a
+	{
+		background-color: transparent;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul ul ul > li > a
+	{
+		background-color: transparent;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul ul ul ul > li > a
+	{
+		background-color: transparent;
+	}
+
+	ul.menu._Skins_Menu.mc-component li > a.selected
+	{
+		background-color: #1CBDFF;
+	}
+
+	ul.menu._Skins_Menu.mc-component li > a:hover
+	{
+		background-color: #1CBDFF;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul > li > a:hover
+	{
+		background-repeat: repeat;
+		background-color: #1CBDFF;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul ul > li > a:hover
+	{
+		background-repeat: repeat;
+		background-color: #1CBDFF;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul ul ul > li > a:hover
+	{
+		background-repeat: repeat;
+		background-color: #1CBDFF;
+	}
+
+	ul.menu._Skins_Menu.mc-component ul ul ul ul > li > a:hover
+	{
+		background-repeat: repeat;
+		background-color: #1CBDFF;
+	}
+
+	ul.menu._Skins_Menu.mc-component li > a.selected:hover
+	{
+		background-color: #1CBDFF;
+	}
+}
+
