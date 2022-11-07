@@ -1,0 +1,15 @@
+High Quality Screen Shots for Word Documents
+
+ 
+
+Word documents generally have a seven inch width for text and images. To perform a screen shot with the highest possible resolution, use the following procedure:
+
+ 
+
+1. Open the page to be captured in a separate browser window.
+
+2. In restore mode, adjust the browser window width to seven inches. You can have your Word document open in the background to use as a guide.
+
+3. Zoom out until the screen appears as desired. Do this by holding the Ctrl key down and scrolling back on your mouse wheel. Generally, 50% for full screen and 65% for dialog boxes is ideal.
+
+4. Take the screen shot and, unless other shots are needed, hold the Ctrl key down and press the zero key to restore the browser back to 100%.

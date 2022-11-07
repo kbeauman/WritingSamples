@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/ico" href="favicon.ico" />
+<style>
+div.content {width: 960px; background-color: #ffffff; padding: 20px; margin: auto;}
+html {background-color: #999999;}
+h1 {font-size: 36pt; margin: 1em 0px 0.5em; color: #032282;}
+h2 {font-size: 24pt; margin: 1em 0px 0.5em; color: #a94c4c;}
+h3 {font-size: 18pt; margin: 1em 0px 0.5em; color: #a94c4c;}
+a {font-style: italic;}
+.link {color: blue; text-decoration: underline;}
+ul, ol {margin-left: -20px;}
+ol ol {list-style-type: lower-roman; margin-top: 0.5em;}
+li {margin-bottom: 0.5em;}
+body {font-family: sans-serif;}
+</style>
+<title>Tracking Work in Jira</title>
+</head>
+<body>
+<div class="content">
+<h1>Tracking Work in Jira</h1>
+<ul>
+	<li><a href="#Overview">Overview</a></li>
+	<li><a href="#Epics">Epics, Stories, and Sub-tasks</a></li>
+	<li><a href="#ReleaseNotes">Develop Release Notes</a></li>
+	<li><a href="#track">Track Work in Jira</a>
+		<ul>
+			<li>Dashboard</li>
+			<li>Add a Gadget</li>
+			<li>Add a Filter</li>
+		</ul>
+	</li>
+	<li><a href="#Kanban">Kanban Board</a></li>
+</ul>
+<h2 id="Overview">Overview</h2>
+<p>This article discusses the following:</p>
+<ul>
+	<li>How to use epics, stories, and sub-tasks.</li>
+	<li>How to use Jira in developing Release Notes and other publications.</li>
+	<li>How to track work.</li>
+	<li>How to use the MBP Documentation Kanban board.</li>
+	<li>Story/sub-task workflow</li>
+</ul>
+<h2 id="Epics">Epics, Stories, and Sub-tasks</h2>
+<p>MBP Documentation uses epics to track a single release deliverable involving one or more components. For example, an upcoming release, <i>vX.Y.Z</i>, may consist of enhancements for Retail Deposits, Commercial Deposits, CAPE RAS, and Core Fusion. Each of these components must have a Release Notes document. The epic for this scenario is <b>MBP vX.Y.Z GA Release Notes</b>. Each component has a story for the Release Notes, e.g., <b>MBP vX.Y.Z Commercial Deposits Release Notes</b>, and each sprint has a sub-task, e.g., <b>MBP vX.Y.Z Sprint 5 Commercial Deposits Release Notes</b>. Each story is linked to the parent epic and each sub-task to the parent story.</p>
+
+<p><b>Create a release project</b></p>
+
+<ol>
+	<li>On the Jira top navigation, select <b>Create</b>. The <i>Create issue</i> dialog appears.</li>
+	<li>Complete the required fields:
+		<ol>
+			<li>For <b>Project</b>, select <b>MBP Documentation</b>.</li>
+			<li>For <b>Issue Type</b>, select <b>Epic</b>.</li>
+			<li>For <b>Epic Name</b>, use the naming convention <b>MBP v#.#.# GA Deliverable</b>, where <i>#</i> is the release version and Deliverable is the document type, e.g., Release Notes, Product Overview, or Enhancement Guide.</li>
+			<li>Complete the remaining required fields with the appropriate release documentation information.</li>
+		</ol>
+	</li>
+	<li>Select <b>Create</b>. The dialog closes and a message appears with the epic's issue key. Optionally, you can select the issue key to open the epic.</li>
+	<li>Repeat the process to add a story:
+		<ol>
+			<li>For <b>Issue Type</b>, select <b>Story</b>.</li>
+			<li>For <b>Story Name</b>, use the naming convention <b>MBP v#.#.# Component Deliverable</b>, where <i>Component</i> is the Modern Banking Platform component.</li>
+			<li>For <b>Epic Link</b>, select the new epic you just created previously.</li>
+		</ol>
+	</li>
+	<li>Select <b>Create</b>. The dialog closes and a message appears with the story's issue key.</li>
+	<li>Select the issue key to open the story.</li>
+	<li>On the <b>More</b> menu, select <b>Create sub-task</b> and use the naming convention <b>MBP v#.#.# Sprint # Component Deliverable</b>, where <i>Sprint #</i> is the development sprint being documented.</li>
+</ol>
+<p>Using this procedure ensures all related issues are linked together and organized in a standard structure.</p>
+
+<h2 id="ReleaseNotes">Develop Release Notes</h2>
+<p>The process of developing Release Notes can be applied to Enhancement Guides and Product Overviews. However, for the sake simplicity, only Release Notes is discussed. Also, this article does not replace or supersede <i class="link">Release Notes Best Practices</i>, but provides an alternative method for developing this publication.</p>
+
+<ol>
+	<li>Determine the Release Version
+		<ol>
+			<li>On the Jira top navigation, open the <b>Projects</b> menu and select the project to be documented. A page appears with the project left navigation.</li>
+			<li>On the left navigation, select <b>Releases</b>. A list of Releases appears.</li>
+			<li>Select the release <b>Version</b> to be documented. A summary page appears.</li>
+		</ol>
+	</li>
+	<li>On the title bar, select Release Notes. A list appears with all issues for the release and each issue key is linked to the issue.</li>
+		</ol>
+	</li>
+</ol>
+<p>This list is also available in HTML syntax at the bottom of the page. You can copy the syntax, paste into Notepad, and save as a HTML file, which can then be opened in Word to give you a quick outline.</p>
+
+<p><b>NOTE:</b> This report is a snapshot of the release with issue keys and issue names. Any changes to the release, such as issues being descoped or added, require manual revisions.</p>
+
+<h2 id="track">Track Work in Jira</h2>
+<p>Jira offers several options you can use to follow specific tickets, or issues. Building a dashboard can help you easily track issues as they move through a workflow or move from one release to another.</p>
+
+<h3>Dashboard</h3>
+<p>The primary tool for frequent viewing issues of interest is the dashboard. A dashboard consists of one or more panes called Gadgets that display lists, graphs, and other helpful aids. To get started, build a dashboard with a gadget listing all issues assigned to you. Then, add a gadget to list all issues you have selected to watch.</p>
+
+<p><b>To build a dashboard</b></p>
+
+<ol>
+	<li>In Jira, go to <b>Dashboards</b> > <b>Manage Dashboards</b>. The <i>Manage Dashboard</i> page appears.</li>
+	<li>Select <b>Create new dashboard</b>. The <i>Create New Dashboard</i> page appears.</li>
+	<li>Complete the form:
+		<ol>
+			<li>For <b>Name</b>, enter a descriptive label.</li>
+			<li>On the <b>Start From</b> menu, select <b>My Issues</b>.</li>
+		</ol>
+	</li>
+	<li>Select <b>Add</b>. The <i>Manage Dashboard</i> page appears with the <i>My Issues</i> dashboard listed.</li>
+</ol>
+<p>The My Issues dashboard contains a gadget listing all Jira issues assigned to you. You can access this dashboard from the Dashboards menu.</p>
+
+<h3>Add a Gadget</h3>
+<p>Jira offers a Watch feature that allows you to select specific issues and receive updates on any changes. However, these email notifications can become overwhelming when watching several issues. Instead, you can add a gadget to the My Issues dashboard that lists you’re watching issues.</p>
+
+<p><b>To add a gadget</b></p>
+
+<ol>
+	<li>In Jira, go to <b>Dashboards</b> > <b>My Issues</b>. The <i>My Issues</i> dashboard appears.</li>
+	<li>Select <b>Add gadget</b>. The <i>Add a gadget</i> dialog appears.</li>
+	<li>Select <b>Load all gadgets</b>.</li>
+	<li>Scroll to <b>Watched Issues</b> and select <b>Add gadget</b>. The <i>Watched Issues</i> gadget is added to the dashboard in Edit mode.</li>
+	<li>Close the Add a gadget</li>
+	<li>Optionally, you can change the number of issues listed per page, as well as delete, add, and rearrange the elements as desired. It is recommended to select <b>Updated</b> from <b>Add fields…</b> This allows you to identify any issues updated since your last session.</li>
+	<li>Select <b>Save</b>. The list of watched issues appears.</li>
+</ol>
+
+<h3>Add a Filter</h3>
+<p>When you need to view a list of issues with one or more common criteria, you can build a filter and associate the filter to the Filter Results gadget. Consider the following resources to aid in this procedure:</p>
+
+<ul>
+	<li><i class="link">Advanced searching – operators reference</i></li>
+	<li><i class="link">Advanced searching – fields reference</i></li>
+</ul>
+
+<p>The following procedure results in a list of Story issues assigned to a specific release.</p>
+
+<p><b>To add a filter</b></p>
+
+<ol>
+	<li>In Jira, select in the <b>Search</b> text box. A list of issues and projects appears.</li>
+	<li>Select <b>View all issues</b>. The advanced search page appears.</li>
+	<li>In the <b>Search</b> text box, enter the field label to search by, such as <i>fixVersion</i> to view all issues assigned to a specific release. As you type a list of options appears containing the characters you have entered.</li>
+	<li>Select the desired label. A list of operators appears.</li>
+	<li>Select the desired operator and enter the keyword to search by.</li>
+	<li>You can continue adding filter criteria, such as <i>issueType = Story</i>.</li>
+	<li>With all filter criteria entered, select <b>Search</b>. A list of issues matching your filter criteria appears.</li>
+	<li>Select <b>Save as</b>. The <i>Save filter</i> dialog appears.</li>
+	<li>Enter a descriptive name for the filter and select <b>Save</b>. The dialog closes and the name appears above the <i>Search</i> text box.</li>
+</ol>
+<p>You can now assign this filter to the <i>Filter Results</i> gadget to view a list of these issues on your dashboard.</p>
+
+<h2 id="Kanban">Kanban Board</h2>
+<p>Use the <b>MBP Documentation</b> Kanban board to quickly view project issues. The Kanban board is available on the left navigation any time you select a project from the <b>Project</b> menu. See <i class="link">What is kanban</i> for additional information.</p>
+
+<p>MBP Documentation Kanban board consists of columns representing each workflow status and a count of issues in the status. Each swimlane represents an epic and contains associated story and sub-tasks. You can expand or collapse a swimlane for easier viewing of a specific epic. You can drag issue tiles from one status column to another within compliance of the workflow to quickly update the status of the issue.</p>
+
+<p>The filter menu includes filters to limit the view to MBP Documentation project issues only, and further limit to a specific release. Note that you must remove the filter for one release before applying another release filter. Otherwise, you are filtering for issues assigned to both releases which most likely results in no issues.</p>
+</div>
+</body>
+</html>
