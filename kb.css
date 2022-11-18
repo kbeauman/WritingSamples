@@ -32,7 +32,7 @@ div.menu {
 }	
 
 div.welcome {
-	height: 360px;
+	height: 180px;
 	background-image: url("WelcomeBG.png"); 
 	background-repeat: repeat-x;
 }
